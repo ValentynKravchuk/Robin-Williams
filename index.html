@@ -4,12 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Robin Williams</title>
-    <link rel="stylesheet" href="./css/styles.cssß" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
   </head>
   <body>
-    <header>
-      <a href="index.html">Robin.W</a>
-      <ul>
+    <header class="header">
+      <a class="link-header" href="index.html">Robin.W</a>
+      <ul class="list-header">
         <li>Experience</li>
         <li>Work</li>
         <li>Photography</li>
@@ -17,14 +27,34 @@
       </ul>
     </header>
     <main>
-      <section>
-        <img src="" alt="Foto Robin" />
-        <h1>I’m Robin Williams. A Product Designer based in Italy.</h1>
-        <p>
-          I’m probably the most passionate designer you will ever get to work
-          with. If you have a great project that needs some amazing skills, I’m
-          your guy.
-        </p>
+      <section class="section-hero">
+<!--         
+          <picture
+            ><source
+              media="(1440px)"
+              srcset="./imagens/Robin desktopx1-min.jpg  1x, ./imagens/Robin desktopx2-min.jpg.   2x," />
+            <source
+              media="(768px)"
+              srcset="./imagens/Robin tabletx1-min.jpg  1x, ./imagen/Robin tabletx2-min.jpg. 2x" />
+            <source
+              media="(360px)"
+              srcset="./imagens/Robin mobilex1-min.jpg 1x, ./imagens/Robin mobilex2-min.jpg 2x," />
+            <img
+              src="./imagens/Robin desktopx1-min.jpg"
+              alt="Foto Robin"
+              width="750"
+              ;
+          /></picture> -->
+          <h1 class="title-hero">
+            I’m Robin Williams. A Product Designer based in Italy.
+            <div class="container-hero"></div>
+          </h1>
+          <p class="text-hero">
+            I’m probably the most passionate designer you will ever get to work
+            with. If you have a great project that needs some amazing skills,
+            I’m your guy.
+          </p>
+        </div>
       </section>
       <section>
         <p>work experience</p>
